@@ -33,6 +33,7 @@ object Basics extends App {
 
     //value of the block is the value of the last expression
     aLocalValue + 3 // it is the return value
+
   }
 
 }
