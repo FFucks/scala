@@ -46,5 +46,17 @@ object Basics extends App {
     if (n <= 1) 1
     else n * factorial(n - 1)
 
+  //In scala we don't use loops or iteration, We use RECURSION!
+  //In scala there is variables and loops but they are discouraged.
+
+  //The Unit type = no meaningful value = void in other languages
+  //Type of SIDE EFFECTS
+  println("I love Scala")// println() returns Unit.
+
+  def myUnitReturningFunction(): Unit = {
+    println("I don't love returning Unit")
+  }
+
+  val theUnit = ()
 
 }
