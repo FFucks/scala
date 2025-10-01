@@ -36,4 +36,15 @@ object Basics extends App {
 
   }
 
+  //define functions
+  def myFunction(x: Int, y:String): String = {
+    y + " " + x
+  }
+
+  //recursive function
+  def factorial(n: Int): Int =
+    if (n <= 1) 1
+    else n * factorial(n - 1)
+
+
 }
